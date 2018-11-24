@@ -2,7 +2,7 @@
  * 队列类
  */
 export class Queue<T> {
-  private items: T[] = [];
+  protected items: T[] = [];
 
   /**
    * 向队列添加元素
