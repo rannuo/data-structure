@@ -30,14 +30,14 @@ export class Stack<T> {
   /**
    * 检查栈是否为空
    */
-  public isEmpty() {
+  public get isEmpty() {
     return this.items.length === 0;
   }
 
   /**
    * 查看栈的长度
    */
-  public size() {
+  public get size() {
     return this.items.length;
   }
 
